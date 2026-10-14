@@ -1,0 +1,7 @@
+f= open ("file.txt","r")
+ct=f.read()
+ws=ct.split("\n")
+print("total number of lines:",len(ct))
+print("second line:",ws[1])
+print("Fourth line:",ws[3])
+f.close()
